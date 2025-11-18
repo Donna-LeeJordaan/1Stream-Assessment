@@ -56,7 +56,7 @@ print(bubble_sort([64, 34, 25, 12, 22, 11, 90]))
 ```
 
 ##  📈  Running Tests
-  ### Using pytest
+  **Using pytest**
   ```
   pytest test_solution.py -v
   ```
@@ -65,7 +65,8 @@ print(bubble_sort([64, 34, 25, 12, 22, 11, 90]))
 ##  📒  Test Coverage
 The test suite includes:
 
-### - reverse_string
+- **reverse_string**
+
   ✅ Normal string reversal
   
   ✅ Empty string (edge case)
@@ -74,7 +75,8 @@ The test suite includes:
   
   ✅ String with spaces
 
-### - is_palindrome
+- **is_palindrome**
+  
   ✅ Valid palindrome with punctuation
   
   ✅ Empty string (edge case)
@@ -83,7 +85,8 @@ The test suite includes:
   
   ✅ Single character
 
-### - bubble_sort
+- **bubble_sort**
+  
   ✅ Normal unsorted list
   
   ✅ Empty list (edge case)
@@ -91,6 +94,26 @@ The test suite includes:
   ✅ Already sorted list
   
   ✅ Single element list
+
+
+## 🔨  Testing Strategy Explanation
+
+**How I ensure the functions work correctly:**
+- **reverse_string**: Test with normal strings, empty strings, single characters, and strings with numbers
+- **is_palindrome**: Test with classic palindromes (with punctuation), non-palindromes, edge cases like empty strings and single characters
+- **bubble_sort**: Test with unsorted lists, already sorted lists, empty lists, single elements, and lists with duplicate values
+
+**Why unit testing is the best fit:**
+- Automated and repeatable
+- Catches regressions when code changes
+- Provides immediate feedback
+- Easy to add new test cases
+- Works well with small, focused functions like these
+
+**To use this solution:**
+1. Save each code block in separate files with the specified names
+2. Run the tests as shown in the README
+3. All tests should pass, confirming your functions work correctly
 
 ------------------------------------------------------------------------------------------------------------------------------------------
  📝 *This solution was created as part of a technical assessment demonstrating Python programming skills, testing practices, and documentation.*
