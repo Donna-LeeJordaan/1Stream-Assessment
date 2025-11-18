@@ -1,4 +1,4 @@
-# 📋  1Stream-Assessment
+# 1Stream-Assessment
 
 # 📂 String and Sorting Utilities
 
