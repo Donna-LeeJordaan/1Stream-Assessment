@@ -46,7 +46,7 @@ bubble_sort([5, 4, 3, 2, 1])  # Returns [1, 2, 3, 4, 5]
 #  💻  Running the Application
 
 ## ✏️ Using the Functions
-from solution import reverse_string, is_palindrome, bubble_sort
+From solution import reverse_string, is_palindrome, bubble_sort
 
 **Example:**
 ```
